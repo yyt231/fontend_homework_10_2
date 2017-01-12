@@ -1,0 +1,70 @@
+ul li {
+  list-style: none; }
+
+.li-container {
+  border: 1px solid #000000;
+  width: 400px;
+  height: 250px;
+  background-color: #ffffff;
+  padding: 20px 0; }
+
+.businfo {
+  width: 100%;
+  height: 100px; }
+  .businfo .left {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px; }
+  .businfo p {
+    margin: 0;
+    padding: 0; }
+  .businfo .right {
+    margin-left: 20px;
+    display: inline-block; }
+
+.busfromto {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #006400;
+  font-weight: bold;
+  font-size: 26px; }
+
+.currentstation {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  height: 20px;
+  text-align: center; }
+
+.busline {
+  text-align: center;
+  line-height: 50px;
+  background-color: #ff0000;
+  width: 111px;
+  height: 50px;
+  color: #ffffff;
+  font-weight: bold; }
+
+.bustime {
+  width: 111px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px; }
+
+.allstation {
+  width: 100%;
+  height: 150px;
+  background-color: #006400;
+  color: #ffffff; }
+  .allstation ul {
+    height: 150px; }
+  .allstation li {
+    height: 100%;
+    width: 20px;
+    float: left;
+    justify-content: space-between; }
+
+/*# sourceMappingURL=road.css.map */

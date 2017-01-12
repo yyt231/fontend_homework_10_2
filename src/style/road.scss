@@ -1,0 +1,107 @@
+$color-red: #ff0000;
+$color-green: #006400;
+$color-white: #ffffff;
+$color-black: #000000;
+
+$busLineNumTextColor: $color-white;
+$busAllStationTextColor: $color-white;
+$baseBG: $color-white;
+$busLineNumBG: $color-red;
+$busCurrentStationTextColor: $color-red;
+$leftArrow: $color-red;
+$busLineFromTo: $color-green;
+$busAllStationBG: $color-green;
+$busLineTime: $color-black;
+$busPrice: $color-black;
+
+$line-block: 1px solid $color-black;
+
+ul li {
+  list-style: none;
+}
+
+.li-container {
+  border: $line-block;
+  width: 400px;
+  height: 250px;
+  background-color: $color-white;
+  padding: 20px 0;
+
+}
+//公交信息
+.businfo {
+  width: 100%;
+  height: 100px;
+
+  .left {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .right {
+    margin-left: 20px;
+    display: inline-block;
+    //width: 100px;
+    //height:100px;
+    //border: $line-block;
+  }
+}
+//从哪里开到哪里
+.busfromto {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: $color-green;
+  font-weight: bold;
+  font-size: 26px;
+}
+//当前站
+.currentstation {
+  color: $busCurrentStationTextColor;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  height: 20px;
+  text-align: center;
+}
+//公交线
+.busline {
+
+  text-align: center;
+  line-height: 50px;
+  background-color: $busLineNumBG;
+  width: 111px;
+  height: 50px;
+  color: $baseBG;
+  font-weight: bold;
+}
+
+.bustime {
+  width: 111px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
+//所有站
+.allstation {
+  width: 100%;
+  height: 150px;
+  background-color: $busLineFromTo;
+  color: $busAllStationTextColor;
+  ul{
+    height: 150px;
+  }
+  li {
+
+    height: 100%;
+    width: 20px;
+    float: left;
+    justify-content:space-between;
+  }
+}
